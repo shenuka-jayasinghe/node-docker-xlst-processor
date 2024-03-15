@@ -10,15 +10,17 @@ Process XLST transform with docker and node using this repo's java code: https:/
 
 ![Untitled Diagram drawio](https://github.com/shenuka-jayasinghe/node-docker-xslt-processor/assets/137282472/81a7688f-151f-40d3-8b54-b7290098efd8)
 
-A TEI directory (:string) is passed in as an argument to the JS function. The function then spins up this [Docker container](https://github.com/shenuka-jayasinghe/cudl-data-processing-xslt/blob/main/Dockerfile) via a volume mount to where our JS function runs. The constainer processes the TEI XSML via XSLT into JSON. The JSON is then outputted into the working directory, and the docker container is closed. 
 
-1. In line 61. of teiToJSON.js insert the TEI directory to be processed for the first argument
+The async function, ```processDataWithDocker(teiDirectory, isSudoDocker)``` takes a TEI directory (:string) as an argument. It then initiates a Docker container through a volume mount to the location where our JS function is executed. The container processes the TEI XML using XSLT and converts it into JSON. The resulting JSON is then outputted to the working directory, after which the Docker container is closed.
 
-2. If your dockerhub credentials require ```sudo``` to pull images from online repositories, have the second argument as true, if not, to false
+### Steps
 
-example:
+1. In line 61 of `teiToJSON.js`, provide the TEI directory to be processed as the first argument.
+   
+2. If your DockerHub credentials require `sudo` for pulling images from online repositories, set the second argument to `true`. Otherwise, set it to `false`.
+
+### Example
 
 ```js
 processDataWithDocker('/home/linux/Documents/github/dl-data-samples/source-data/data/items/data/tei/MS-TEST-ITEM-00002/', true)
-```
 

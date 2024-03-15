@@ -22,5 +22,5 @@ The async function, ```processDataWithDocker(teiDirectory, isSudoDocker)``` take
 ### Example
 
 ```js
-processDataWithDocker('/home/linux/Documents/github/dl-data-samples/source-data/data/items/data/tei/MS-TEST-ITEM-00002/', true)
+processDataWithDocker('./example-data-directory', true)
 

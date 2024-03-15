@@ -13,6 +13,7 @@ Process XLST transform with docker and node using this repo's java code: https:/
 
 <br>
 1. Change line 61. of teiToJSON.js to TEI directory
+<br>
 2. If your dockerhub credentials require 'sudo' to pull images from online repositories, have the second argument as true, if not, to false
 
 example:

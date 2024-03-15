@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msDesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msDesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Doc. 829</title>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Cambridge University Library</publisher>
+                <pubPlace>Cambridge</pubPlace>
+
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © Cambridge University Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc/3.0/">Images made
+                        available for download are licensed under a Creative Commons
+                        Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/">This metadata is
+                        licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported
+                        License.</licence>
+                </availability>
+
+                <availability xml:id="watermark" status="restricted">
+                    <licence>Cambridge University Library (CC BY-NC 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="n1" xml:lang="eng">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Cambridgeshire</region>
+                        <settlement>Cambridge</settlement>
+                        <institution>Cambridge University</institution>
+                        <repository>Cambridge University Library</repository>
+                        <idno>MS Doc. 829</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <seg type="para">This diminutive clay tablet was written by a Sumerian scribe
+                                in an administrative office around 2200 BC.</seg>
+                            <seg type="para">&lt;iframe width="560" height="315"
+                                src="//www.youtube.com/embed/Mm4mXmivuZg?rel=0" frameborder="0"
+                                allowfullscreen&gt;&lt;/iframe&gt;</seg>
+                            <seg type="para">The full translation of the laconic text runs as follows:<lb/>
+                                <lb/> 18 jars of pig fat – Balli.<lb/> 4 jars of pig fat –
+                                Nimgir-ab-lah.<lb/> Fat dispensed (at ?) the city of Zabala.<lb/>
+                                Ab-kid-kid, the scribe.<lb/> 4th year 10th month.</seg>
+
+                            <seg type="para">There are plenty of uncertainties about this translation. We
+                                cannot be sure that the personal names Balli, Ningir-ablah and Ab-kid-kid
+                                are correctly transcribed because of the multivalence of cuneiform signs at
+                                this date. Moreover, there are no verbs to tell us whether Balli and
+                                Nimgir-ablah were receiving pig fat or handing it out. The fat was either
+                                poured out at Zabala or for Zabala, an ancient city of central Sumer whose
+                                patron deity was the goddess Inana, identified with the mounds of Ibzeikh.
+                                The tablet may have been written at Zabala, but it is also possible it was
+                                written at, and was rediscovered in, the even more important city of Umma
+                                further to the east. To decide this we need to take account of other similar
+                                documents.</seg>
+
+                            <seg type="para">&lt;iframe width="600" height="480"
+                                src="https://sketchfab.com/models/225543039ef54b2590b4a46a38f945d5/embed"
+                                frameborder="0" allowfullscreen="true" mozallowfullscreen="true"
+                                webkitallowfullscreen="true" onmousewheel=""&gt;&lt;/iframe&gt; <ref target="https://sketchfab.com/models/225543039ef54b2590b4a46a38f945d5?utm_medium=embed&amp;utm_source=website&amp;utm_campain=share-popup">Sumerian clay tablet (MS Doc. 829) 3D model</ref>
+                            </seg>
+
+                            <seg type="para">There are several clues in this short text which allow us to
+                                position it in an archival context, and comparison. Tablets dated by year
+                                and month (no day, and no ‘year-name’ which was the better attested
+                                practice) are known to belong late in the decades of the Dynasty of Akkad
+                                which ruled south Mesopotamia in the twenty-third and twenty-second
+                                centuries BC. While very few such ‘mu-iti’ (year-month) tablets have been
+                                recovered in archaeological excavations, plenty appeared on the antiquities
+                                market in the early decades of the twentieth century and are scattered among
+                                the museums of the western world, including the Louvre, the British Museum,
+                                Liverpool, Manchester, Edinburgh, St Petersburg, Yale and Chicago. A study
+                                of these texts was included in B. R. Foster’s work <hi rend="italic">Umma in
+                                    the Sargonic period</hi> (Hamden CT, 1982), especially Chapter 4. He
+                                discusses numerous tablets which record the issue of food stuffs and other
+                                commodities. He writes “animal fats were an important part of human diet”,
+                                lard “was stored in jars, and issued by the sìla [ca. 1 litre]”. … “It may
+                                also have been an important commercial product, as stocks of it were kept in
+                                various cities outside of Umma itself and records kept at Umma as to what
+                                was on hand or disbursed in those cities” (pp. 116–70).</seg>
+                            <seg type="para">This reads very aptly for our tablet, and that it is relevant
+                                becomes apparent when we find that one of his texts mentions Balli, another
+                                records Zabala as the place where the pig fat was used, and a third tablet
+                                concerned with pig fat mentions an Ab-kid-kid. Here he is the scribe, and
+                                Balli and Nimgir-ab-lah must be receiving, issuing, or authorizing the issue
+                                of the pig fat. While Nimgir-ablah is new to us, Balli turns up regularly in
+                                the texts discussed by Foster, and he seems to be an official in charge of a
+                                wide range of oils, from pig fat and butter to sesame oil and almond oil. It
+                                is virtually certain that this little tablet was clandestinely excavated
+                                some time early in the twentieth century, and found its way to Europe along
+                                with many other tablets from an institutional archive—a palace or
+                                conceivably also a temple. As for its more precise date, this is still sub
+                                judice, but along with the rest of its archive it probably belongs to a time
+                                when Shar-kali-sharri, the last king of the Dynasty of Akkad, had lost
+                                control of parts of the south, and documents at Umma were no longer dated by
+                                his regnal years, but by another system. Unfortunately we don’t know what
+                                the starting point for the ‘4th year’ was.</seg>
+                            <seg type="para">Nicholas Postgate, Trinity College</seg>
+
+                        </summary>
+                        <msItem n="1">
+
+                            <title>Sumerian clay tablet</title>
+                            <textLang mainLang="sux">Sumerian</textLang>
+                            <editor role="dnr"
+                                    key="person_v54163116"
+                                    ref="http://viaf.org/viaf/54163116">Gaselee, S. (Stephen), 1882-1943</editor>
+                            <editor role="oth"
+                                    key="person_v88946269"
+                                    ref="http://viaf.org/viaf/88946269">Fish, Thomas</editor>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+
+                            <supportDesc material="clay">
+
+                                <support>Clay</support>
+                                <extent/>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="-2200" notAfter="-2200">ca 2,200
+                                BCE</origDate>
+                            <origPlace ref="1000118" key="place_g1000118">Zabala, Southern Iraq</origPlace>
+                        </origin>
+                        <provenance/>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <availability status="restricted">
+                                <p>Entry to read in the Library is permitted only on presentation of a valid
+                                    reader's card for admissions procedures contact <ref target="http://www.lib.cam.ac.uk/cgi-bin/eligibility.cgi/">Cambridge
+                                        University Library Admissions</ref>).</p>
+                            </availability>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress
+                            Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85034807">Cuneiform inscriptions, Sumerian</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-02-17">
+                <persName>Professor Nicholas Postgate</persName>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic decls="#document-thumbnail"
+                 rend="portrait"
+                 url="MS-TEST-ITEM-00002-000-00001"/>
+        <surface n="1" xml:id="i1">
+            <graphic decls="#downloadImageRights #download"
+                     height="8688px"
+                     width="5792px"
+                     rend="portrait"
+                     url="MS-TEST-ITEM-00002-000-00001"/>
+        </surface>
+
+
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <pb xml:id="Lg-1" n="1" facs="#i1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

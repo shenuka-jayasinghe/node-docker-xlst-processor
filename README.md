@@ -1,4 +1,4 @@
-![data-processor drawio](https://github.com/shenuka-jayasinghe/node-docker-xlst-processor/assets/137282472/f67fc2a2-5664-4ef5-961f-55b682ed7c3e)# node-docker-xlst-processor
+# node-docker-xlst-processor
 Process XLST transform with docker and node using this repo's java code: https://github.com/cambridge-collection/cudl-data-processing-xslt?tab=readme-ov-file
 
 ## Dependencies

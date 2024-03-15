@@ -1,0 +1,12 @@
+{
+  "name": "docker-xlst-processor",
+  "version": "1.0.0",
+  "description": "Process XLST transform with docker and node using this repo's java code: https://github.com/cambridge-collection/cudl-data-processing-xslt?tab=readme-ov-file",
+  "main": "teiToJSON.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

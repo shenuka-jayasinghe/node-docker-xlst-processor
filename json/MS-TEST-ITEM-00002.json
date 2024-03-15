@@ -1,0 +1,238 @@
+
+         {
+            "descriptiveMetadata": 
+               [
+            
+         {
+            "thumbnailUrl": "MS-TEST-ITEM-00002-000-00001",
+            "thumbnailOrientation": "portrait",
+            "displayImageRights": "Zooming image © Cambridge University Library, All rights reserved.",
+            "downloadImageRights": "Images made available for download are licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)",
+            "imageReproPageURL": "https://imagingservices.lib.cam.ac.uk/",
+            "metadataRights": "This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.",
+            "pdfRights": "",
+            "watermarkStatement": "Cambridge University Library (CC BY-NC 4.0)",
+            "docAuthority": "",
+            "fundings": 
+               {
+               "display": true, 
+               "seq": 208, 
+                  "label": "Funding", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "", 
+               "seq": 209
+               }
+               ]
+               },
+            "subjects": 
+               {
+               "display": true, 
+               "seq": 22, 
+                  "listDisplay": "inline", 
+                  "label": "Subject(s)", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Cuneiform inscriptions, Sumerian", 
+               "seq": 23, 
+                  "linktype": "keyword search", 
+            "fullForm": "Cuneiform inscriptions, Sumerian",
+            "authority": "Library of Congress Subject Headings",
+            "authorityURI": "http://id.loc.gov/authorities/about.html#lcsh",
+            "valueURI": "subject_sh85034807"
+         }
+               ]
+               },
+            "dataRevisions": 
+               {
+               "display": true, 
+                  "displayForm": "Professor Nicholas Postgate", 
+                  "label": "Author(s) of the Record", 
+               "seq": 212
+               },
+            "ID": "DOCUMENT",
+            "abstract": 
+               {
+               "display": false, 
+                  "displayForm": "<p style='text-align: justify;'>This diminutive clay tablet was written by a Sumerian scribe in an administrative office around 2200 BC.</p><p style='text-align: justify;'><iframe width=\"560\" height=\"315\" src=\"//www.youtube.com/embed/Mm4mXmivuZg?rel=0\" frameborder=\"0\" allowfullscreen></iframe></p><p style='text-align: justify;'>The full translation of the laconic text runs as follows:<br /><br /> 18 jars of pig fat – Balli.<br /> 4 jars of pig fat – Nimgir-ab-lah.<br /> Fat dispensed (at ?) the city of Zabala.<br /> Ab-kid-kid, the scribe.<br /> 4th year 10th month.</p><p style='text-align: justify;'>There are plenty of uncertainties about this translation. We cannot be sure that the personal names Balli, Ningir-ablah and Ab-kid-kid are correctly transcribed because of the multivalence of cuneiform signs at this date. Moreover, there are no verbs to tell us whether Balli and Nimgir-ablah were receiving pig fat or handing it out. The fat was either poured out at Zabala or for Zabala, an ancient city of central Sumer whose patron deity was the goddess Inana, identified with the mounds of Ibzeikh. The tablet may have been written at Zabala, but it is also possible it was written at, and was rediscovered in, the even more important city of Umma further to the east. To decide this we need to take account of other similar documents.</p><p style='text-align: justify;'><iframe width=\"600\" height=\"480\" src=\"https://sketchfab.com/models/225543039ef54b2590b4a46a38f945d5/embed\" frameborder=\"0\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" onmousewheel=\"\"></iframe> <a target='_blank' class='externalLink' href='https://sketchfab.com/models/225543039ef54b2590b4a46a38f945d5?utm_medium=embed&utm_source=website&utm_campain=share-popup'>Sumerian clay tablet (MS Doc. 829) 3D model</a></p><p style='text-align: justify;'>There are several clues in this short text which allow us to position it in an archival context, and comparison. Tablets dated by year and month (no day, and no ‘year-name’ which was the better attested practice) are known to belong late in the decades of the Dynasty of Akkad which ruled south Mesopotamia in the twenty-third and twenty-second centuries BC. While very few such ‘mu-iti’ (year-month) tablets have been recovered in archaeological excavations, plenty appeared on the antiquities market in the early decades of the twentieth century and are scattered among the museums of the western world, including the Louvre, the British Museum, Liverpool, Manchester, Edinburgh, St Petersburg, Yale and Chicago. A study of these texts was included in B. R. Foster’s work <i>Umma in the Sargonic period</i> (Hamden CT, 1982), especially Chapter 4. He discusses numerous tablets which record the issue of food stuffs and other commodities. He writes “animal fats were an important part of human diet”, lard “was stored in jars, and issued by the sìla [ca. 1 litre]”. … “It may also have been an important commercial product, as stocks of it were kept in various cities outside of Umma itself and records kept at Umma as to what was on hand or disbursed in those cities” (pp. 116–70).</p><p style='text-align: justify;'>This reads very aptly for our tablet, and that it is relevant becomes apparent when we find that one of his texts mentions Balli, another records Zabala as the place where the pig fat was used, and a third tablet concerned with pig fat mentions an Ab-kid-kid. Here he is the scribe, and Balli and Nimgir-ab-lah must be receiving, issuing, or authorizing the issue of the pig fat. While Nimgir-ablah is new to us, Balli turns up regularly in the texts discussed by Foster, and he seems to be an official in charge of a wide range of oils, from pig fat and butter to sesame oil and almond oil. It is virtually certain that this little tablet was clandestinely excavated some time early in the twentieth century, and found its way to Europe along with many other tablets from an institutional archive—a palace or conceivably also a temple. As for its more precise date, this is still sub judice, but along with the rest of its archive it probably belongs to a time when Shar-kali-sharri, the last king of the Dynasty of Akkad, had lost control of parts of the south, and documents at Umma were no longer dated by his regnal years, but by another system. Unfortunately we don’t know what the starting point for the ‘4th year’ was.</p><p style='text-align: justify;'>Nicholas Postgate, Trinity College</p>", 
+                  "label": "Abstract", 
+               "seq": 11
+               },
+            "donors": 
+               {
+               "display": true, 
+               "seq": 121, 
+                  "label": "Donor(s)", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Gaselee, S. (Stephen), 1882-1943", 
+               "seq": 122, 
+                  "linktype": "keyword search", 
+            "fullForm": "Gaselee, S. (Stephen), 1882-1943",
+            "shortForm": "Gaselee, S. (Stephen), 1882-1943",
+            "role": "dnr",
+            "authority": "VIAF",
+            "authorityURI": "http://viaf.org/",
+            "valueURI": "http://viaf.org/viaf/54163116"
+         }
+               ]
+               },
+            "associated": 
+               {
+               "display": true, 
+               "seq": 139, 
+                  "listDisplay": "unordered", 
+                  "label": "Associated Name(s)", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Fish, Thomas", 
+               "seq": 140, 
+                  "linktype": "keyword search", 
+            "fullForm": "Fish, Thomas",
+            "shortForm": "Fish, Thomas",
+            "role": "oth",
+            "authority": "VIAF",
+            "authorityURI": "http://viaf.org/",
+            "valueURI": "http://viaf.org/viaf/88946269"
+         }
+               ]
+               },
+            "creations": 
+               {
+               "display": true, 
+               "seq": 65, 
+               "value": [
+            
+         {
+            "type": "creation",
+            "places": 
+               {
+               "display": true, 
+               "seq": 70, 
+                  "label": "Origin Place", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Zabala, Southern Iraq", 
+               "seq": 71, 
+                  "linktype": "keyword search", 
+            "shortForm": "Zabala, Southern Iraq",
+            "fullForm": "Zabala, Southern Iraq"
+         }
+               ]
+               },
+            "dateStart": "-2200",
+            "dateEnd": "-2200",
+            "dateDisplay": 
+               {
+               "display": true, 
+                  "displayForm": "ca 2,200 BCE", 
+                  "linktype": "keyword search", 
+                  "label": "Date of Creation", 
+               "seq": 79
+               }
+         }
+               ]
+               },
+            "physicalLocation": 
+               {
+               "display": true, 
+                  "displayForm": "Cambridge University Library", 
+                  "label": "Physical Location", 
+               "seq": 4
+               },
+            "shelfLocator": 
+               {
+               "display": true, 
+                  "displayForm": "MS Doc. 829", 
+                  "label": "Classmark", 
+               "seq": 5
+               },
+            "material": 
+               {
+               "display": true, 
+                  "displayForm": "Clay", 
+                  "label": "Material", 
+               "seq": 177
+               },
+            "provenances": 
+               {
+               "display": true, 
+               "seq": 196, 
+                  "label": "Provenance", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "", 
+               "seq": 197
+               }
+               ]
+               },
+            "title": 
+               {
+               "display": false, 
+                  "displayForm": "Sumerian clay tablet", 
+                  "label": "Title", 
+               "seq": 10
+               },
+            "languageCodes": 
+               [
+            "sux"
+               ],
+            "languageStrings": 
+               {
+               "display": true, 
+               "seq": 119, 
+                  "label": "Language(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Sumerian", 
+               "seq": 120
+               }
+               ]
+               }
+         }
+               ],
+            "numberOfPages": 1,
+            "embeddable": true,
+            "textDirection": "L",
+            "sourceData": "/v1/metadata/tei/MS-TEST-ITEM-00002/",
+            "pages": 
+               [
+            
+         {
+            "label": "1",
+            "physID": "PHYS-1",
+            "sequence": 1,
+            "IIIFImageURL": "MS-TEST-ITEM-00002-000-00001",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 5792,
+            "imageHeight": 8688
+         }
+               ],
+            "logicalStructures": 
+               [
+            
+         {
+            "descriptiveMetadataID": "DOCUMENT",
+            "label": "Sumerian clay tablet",
+            "startPageLabel": "1",
+            "startPagePosition": 1,
+            "startPageID": "PHYS-1",
+            "endPageLabel": "1",
+            "endPagePosition": 1
+         }
+               ]
+         }

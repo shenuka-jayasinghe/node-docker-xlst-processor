@@ -11,7 +11,7 @@ Process XLST transform with docker and node using this repo's java code: https:/
 ![Untitled Diagram drawio](https://github.com/shenuka-jayasinghe/node-docker-xslt-processor/assets/137282472/81a7688f-151f-40d3-8b54-b7290098efd8)
 
 
-The async function, ```processDataWithDocker(teiDirectory, isSudoDocker)``` takes a TEI directory (:string) as an argument. It then initiates a Docker container ([linked here](https://github.com/shenuka-jayasinghe/cudl-data-processing-xslt/blob/main/Dockerfile)through a volume mount to the location where our JS function is executed. The container processes the TEI XML using XSLT and converts it into JSON. The resulting JSON is then outputted to the working directory, after which the Docker container is closed.
+The async function, ```processDataWithDocker(teiDirectory, isSudoDocker)``` takes a TEI directory (:string) as an argument. It then initiates a Docker container ([linked here](https://github.com/shenuka-jayasinghe/cudl-data-processing-xslt/blob/main/Dockerfile)) through a volume mount to the location where our JS function is executed. The container processes the TEI XML using XSLT and converts it into JSON. The resulting JSON is then outputted to the working directory, after which the Docker container is closed.
 
 ### Steps
 

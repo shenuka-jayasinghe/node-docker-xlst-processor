@@ -25,6 +25,11 @@ The async function, ```processDataWithDocker(teiDirectory, isSudoDocker)``` take
 processDataWithDocker('./example-data-directory', true)
 ```
 
-At the request of Chris Wilson, you can also add a 
+At the request of Chris Wilson, you can also add a an xslt directory to test new transforms. The Docker file executed based on the files and file structure based in ```example-xslt-directory```, so change with that folder as guidance.
+
+```js
+processDataWithDocker('./example-data-directory', true, './example-xslt-direcory')
+```
+
 
 

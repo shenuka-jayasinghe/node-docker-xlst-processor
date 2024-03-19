@@ -17,7 +17,7 @@ async function processDataWithDocker(
     const { stdout: linkOutput } = await exec(`ln -s ${teiDirectory} data`);
     console.log("Symbolic link created for data directory:", linkOutput.trim());
 
-    if (xsltDirectory === "") {
+    if (xsltDirectory === "" && typeof xsltDirectory === 'string') {
       //No XSLT directory specified
       // Run the ant build command inside the Docker container with local volume mount
       const { stdout: antOutput } = await exec(
@@ -99,7 +99,7 @@ async function readJsonFiles(filePath) {
 //   });
 
 // Example data with XSLT directory added
-processDataWithDocker('./example-data-directory', true,  './example-xslt-directory')
+processDataWithDocker('./example-data-directory', true,  './test-directory')
     .then((jsonData) => {
         console.log('process with XSLT directory input')
         console.log('JSON data:', jsonData);

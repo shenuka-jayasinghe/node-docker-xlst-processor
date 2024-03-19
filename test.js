@@ -1,0 +1,19 @@
+const fs = require('fs');
+const { processDataWithDocker } = require('./sudoXmlToJSON.js');
+
+const xmlFilePath = `${__dirname}/test.xml`;
+
+fs.readFile(xmlFilePath, 'utf8', (err, xmlData) => {
+  if (err) {
+    console.error("Error reading XML file:", err);
+    return;
+  }
+
+  processDataWithDocker(xmlData, true)
+    .then((jsonData) => {
+      console.log("JSON data:", jsonData);
+    })
+    .catch((err) => {
+      console.error("Error:", err);
+    });
+});

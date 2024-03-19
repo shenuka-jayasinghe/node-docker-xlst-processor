@@ -7,16 +7,17 @@ require("dotenv").config({ path : pathToEnvFile })
 
 const SUDO_PASSWORD = process.env.SUDO_PASSWORD;
 
-async function processDataWithDocker(
+exports.processDataWithDocker = async (
   xmlData,
   isSudoDocker,
   xsltDirectory = ""
-) {
+) => {
   const sudoDockerString = isSudoDocker ? "sudo -S docker" : "docker";
 
   try {
     // Write the XML data to a temporary file
-    const xmlFilePath = path.join(__dirname, "data.xml");
+    await exec(`mkdir data`)
+    const xmlFilePath = path.join(`${__dirname}/data`, "data.xml");
     await fs.writeFile(xmlFilePath, xmlData, "utf8");
     console.log("XML data written to:", xmlFilePath);
 
@@ -24,7 +25,7 @@ async function processDataWithDocker(
       //No XSLT directory specified
       // Run the ant build command inside the Docker container with local volume mount
       await exec(`export SUDO_PASSWORD=${SUDO_PASSWORD}`);
-      const command = `echo $SUDO_PASSWORD | ${sudoDockerString} run --rm -v ${__dirname}:/opt/data -v ${__dirname}/json:/opt/json shenukacj/cudl-xslt:0.0.5 ant -buildfile ./bin/build.xml "json"`
+      const command = `echo $SUDO_PASSWORD | ${sudoDockerString} run --rm -v ${__dirname}/data:/opt/data -v ${__dirname}/json:/opt/json shenukacj/cudl-xslt:0.0.5 ant -buildfile ./bin/build.xml "json"`
       const { stdout: antOutput } = await exec(command);
       console.log("Ant command executed:", antOutput.trim());
 
@@ -35,6 +36,8 @@ async function processDataWithDocker(
       );
       console.log("Ant command executed:", antOutput.trim());
     }
+
+    await exec(`rm -r data`)
 
     // Read and parse JSON files
     const jsonDir = path.join(__dirname, "json");
@@ -87,10 +90,10 @@ const xmlData = `<?xml version="1.0" encoding="UTF-8"?>
     </TEI>
 </message>`;
 
-processDataWithDocker(xmlData, true)
-  .then((jsonData) => {
-    console.log("JSON data:", jsonData);
-  })
-  .catch((err) => {
-    console.error("Error:", err);
-  });
+// processDataWithDocker(xmlData, true)
+//   .then((jsonData) => {
+//     console.log("JSON data:", jsonData);
+//   })
+//   .catch((err) => {
+//     console.error("Error:", err);
+//   });
